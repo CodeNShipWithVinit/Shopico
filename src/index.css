@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+@theme {
+  /* teal-300 */
+  --color-primary: #7FE2D8; 
+  /* teal-400 */
+  --color-hover: #50C8BC;
+  /* white */
+  --color-background: #FDFDFD; 
+  /* gray-200 */
+  --color-section: #E5E7EB;
+  /* stone-800 */
+  --color-heading: #46352F;
+  /* stone-500 */
+  --color-text: #8C7C75;
+}
