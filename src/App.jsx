@@ -1,10 +1,9 @@
-
+import Header from "./components/Header/Header";
 
 const App = () => {
   return (
-    <div className="bg-primary">App
-    
-    <div className="bg-section">Hello</div>
+    <div>
+      <Header/>
     </div>
   )
 }
