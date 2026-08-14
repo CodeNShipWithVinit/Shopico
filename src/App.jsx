@@ -1,4 +1,5 @@
 import Header from "./components/Header/Header";
+import Hero from "./components/Hero/Hero"
 import {getProducts} from "./api/api";
 import { useEffect } from "react";
 
@@ -19,7 +20,8 @@ const App = () => {
   },[]);
   return (
     <div>
-      <Header/>
+      <Header />
+      <Hero />
     </div>
   )
 }
