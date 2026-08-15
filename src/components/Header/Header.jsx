@@ -8,7 +8,7 @@ const Header = () => {
       </div>
 
       <div className="flex items-center">
-        <ul className="flex gap-7 font-medium cursor-pointer">
+        <ul className="flex gap-7 cursor-pointer font-bold">
           <li>Home</li>
           <li>Shop</li>
           <li>Categories</li>

@@ -14,3 +14,6 @@
   /* stone-500 */
   --color-text: #8C7C75;
 }
+body {
+  font-family: "Montserrat", sans-serif;
+}
