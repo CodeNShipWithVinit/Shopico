@@ -13,7 +13,7 @@ const Hero = () => {
         <p className="text-white text-lg sm:text-2xl text-center px-4 max-wd-lg">
           Discover the latest styles and elevate your everyday look.
         </p>
-        <button className="bg-hover px-6 py-4 rounded-md text-white font-bold active:scale-95">
+        <button className="bg-hover px-6 py-4 rounded-md text-white font-bold active:scale-95 cursor-pointer">
           Shop Now
         </button>
 
