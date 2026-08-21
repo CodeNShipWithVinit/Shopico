@@ -8,19 +8,7 @@ import NewArrivals from "./pages/NewArrivals/NewArrivals";
 import { BrowserRouter,Routes,Route } from "react-router-dom";
 
 const App = () => {
-  // useEffect(()=>{
-  //   const getHomeProducts=async()=>{
-  //     try {
-  //       const data=await getProducts();
-  //       console.log(data);
-  //     } catch (error) {
-  //       console.log(error);
-  //     }finally{
-  //       console.log("Running");
-  //     }
-  //   }
-  //   getHomeProducts();
-  // },[]);
+  
   return (
     <BrowserRouter>
       <Routes>

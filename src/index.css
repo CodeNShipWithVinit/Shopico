@@ -1,6 +1,8 @@
 @import "tailwindcss";
 
 @theme {
+  /* teal-100 */
+  --color-light:#F5FFFD;
   /* teal-300 */
   --color-primary: #7FE2D8; 
   /* teal-400 */
