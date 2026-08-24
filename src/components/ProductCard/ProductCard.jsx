@@ -18,6 +18,7 @@ const ProductCard = ({item}) => {
         <div className="p-3">
               <button className="bg-hover text-white w-full flex justify-center items-center gap-2 p-2 rounded-md active:scale-95 my-2"><span><ShoppingCart className="w-5 h-5" strokeWidth={2} /></span> <span className="font-medium">Add To Cart</span></button>
         </div>
+        console.log("Debugging");
     </div>
   )
 }
