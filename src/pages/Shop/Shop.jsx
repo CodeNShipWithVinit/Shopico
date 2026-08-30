@@ -1,8 +1,14 @@
-
+import Header from "../../components/Header/Header";
+import Footer from "../../components/Footer/Footer";
+import ShopNav from "../../components/ShopNav/ShopNav";
 const Shop = () => {
   return (
-    <div>Shop</div>
-  )
-}
+    <div>
+      <Header />
+      <ShopNav />
+      <Footer />
+    </div>
+  );
+};
 
-export default Shop
+export default Shop;

@@ -1,6 +1,7 @@
 import Logo from "../../assets/Shopico_logo.png";
 import { Search, User, Heart, ShoppingCart, Menu } from "lucide-react";
 import { useState } from "react";
+import { Link } from "react-router-dom";
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
@@ -13,8 +14,8 @@ const Header = () => {
 
         <nav className="hidden lg:flex items-center">
           <ul className="flex gap-5 cursor-pointer font-bold">
-            <li>Home</li>
-            <li>Shop</li>
+            <li><Link to="/">Home</Link></li>
+            <li><Link to="/shop">Shop</Link></li>
             <li>Categories</li>
             <li>Deals</li>
             <li>New Arrivals</li>
@@ -54,7 +55,7 @@ const Header = () => {
         <nav className="lg:hidden">
           <ul className="flex flex-col gap-5 p-4 cursor-pointer font-bold">
             <li>Home</li>
-            <li>Shop</li>
+            <li><Link to="/shop">Shop</Link></li>
             <li>Categories</li>
             <li>Deals</li>
             <li>New Arrivals</li>
